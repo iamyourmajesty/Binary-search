@@ -1,1 +1,1 @@
-<img src="arrayreadme.png" width="1700"/>
+<img src="bin_search.png" width="1700"/>

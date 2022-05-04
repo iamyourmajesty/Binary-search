@@ -7,13 +7,13 @@ int main()
     int target=4;
     int ans=-1;
     //applay binary search
-    int s=0;
-    int e=n-1;
+    int start=0;
+    int end=n-1;
     int mid;
 
-    while(e>=s)
+    while(end>=start)
     {
-        mid=s+ (e-s)/2;
+        mid=start + (end-start)/2;
 
         if(arr[mid]==target)
         {
@@ -21,9 +21,9 @@ int main()
             break;
         }
         else if(target>arr[mid])
-        s =mid +1;
+        start =mid +1;
         else
-        e=mid -1;
+        end=mid -1;
     }
     cout<<ans;
     return 0;

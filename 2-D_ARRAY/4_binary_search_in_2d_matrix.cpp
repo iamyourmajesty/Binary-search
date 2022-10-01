@@ -38,3 +38,11 @@ int main()
    
     return 0;
 }
+
+
+/*
+method 1 :- brute force o(n^2) 
+method 2 :- iterate through each row and apply bin search 0(n*logn)
+method 3 :- find row by binary search and apply bin search to find element too 0(logn * logm) 
+method 4 :- row = mid/m , col = mid%m 0(log(n*m))
+*/

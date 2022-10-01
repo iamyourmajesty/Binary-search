@@ -1,1 +1,1 @@
-<img src="2-d-bin-search.png" width="1350"/>
+<img src="two-d-bin-search.png" width="1350"/>
